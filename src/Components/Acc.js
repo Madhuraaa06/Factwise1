@@ -22,16 +22,16 @@ const ProfileCard = (pp) => {
   };
 
   const handleDelete = () => {
-    setIsModalOpen(true); // Open the confirmation modal
+    setIsModalOpen(true); 
   };
 
   const confirmDelete = () => {
     setIsDeleted(true);
-    setIsModalOpen(false); // Close the modal after confirming
+    setIsModalOpen(false); 
   };
 
   const cancelDelete = () => {
-    setIsModalOpen(false); // Close the modal if canceled
+    setIsModalOpen(false); 
   };
 
   const handleSave = () => {
@@ -53,7 +53,17 @@ const ProfileCard = (pp) => {
             alt="profile" 
             className="profile-image" 
           />
-          <h3>{profile.name}</h3>
+          {isEditing ? (
+            <input
+              type="text"
+              name="name"
+              value={profile.name}
+              onChange={handleChange}
+              className="name-input" 
+            />
+          ) : (
+            <h3>{profile.name}</h3>
+          )}
         </div>
         <button className="toggle-button" onClick={toggleCollapse}>
           {isCollapsed ? "▼" : "▲"}
@@ -61,6 +71,8 @@ const ProfileCard = (pp) => {
       </div>
 
       {!isCollapsed && isEditing && (
+
+        
         <div className="profile-details">
           <div className="profile-row">
             <div className="field">

@@ -11,7 +11,7 @@ const List = () => {
       age: "19 Years",
       gender: "Rather not say",
       country: "India",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ const List = () => {
       age: "25 Years",
       gender: "Female",
       country: "USA",
-      description: "Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetur adipiscing elit. penatibus et magnis dis parturient montes."
+      description: "Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing elitelit. penatibus et magnis dis parturient montes."
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ const List = () => {
       age: "22 Years",
       gender: "Male",
       country: "UK",
-      description: "Donec quam felis Lorem ipsum dolor sit amet, consectetur adipiscing elit., ultricies nec, pellentesque eu, pretium quis, sem."
+      description: "Donec quam felis Lorem ipsum dolor sit amet, consectetur adipiscing elit., ultricies nec, Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elitipsum dolor sit amet, consectetur adipiscing elitpellentesque eu, pretium quis, sem."
     }
   ]);
 
